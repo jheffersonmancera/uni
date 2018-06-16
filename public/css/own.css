@@ -1,0 +1,352 @@
+
+
+
+.btn-uni {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.btn-primary-uni {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-danger-uni {
+    color: #fff;
+    background-color: #d43f3a;
+    border-color: #d43f3a;
+    cursor: pointer;
+
+}
+
+
+.msg-rojo-small{
+  color:#cc2128;
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom:  3px;
+}
+
+
+.face-button {
+  padding: 5px;
+  letter-spacing: .25px;
+  font-size: 15px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  padding: 2 8px 0 2px; */
+  border-rounder:2px;
+  border-radius: 5px;
+  background: #3B5998;
+  color: white;
+  text-decoration: none;
+}
+
+.face-button:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*.fade.in {
+    opacity: 1;
+}*/
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+}
+
+.btn-file {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 3px 6px;
+  border-radius: 8px;
+  /*font-size: 2px;*/
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#canvas {
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
+
+
+.progress 
+{
+  /*display:none; */
+  position:relative; 
+  width:150px; 
+  border: 1px solid #ddd; 
+  padding: 1px; 
+  border-radius: 3px; 
+}
+.bar 
+{ 
+  background-color: #B4F5B4; 
+  width:0%; 
+  height:20px; 
+  border-radius: 3px; 
+}
+.percent 
+{ 
+  position:absolute; 
+  display:inline-block; 
+  top:3px; 
+  left:48%; 
+}
+
+.centrado {
+  
+  margin:0 auto;
+}
+
+#imagen{margin:auto;} 
+
+.padding-img-btn{
+  padding-top: 10px;
+}
+
+.marco{
+  border: 1px solid red;
+}
+
+.example { 
+  border-style: solid;
+    border-color: coral;
+}
+
+.un{
+  border: 2px solid red;
+}
+
+.modal-content{
+  background-color: #ececec;
+}
+
+.marco-background{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #fff;
+}
+
+.img-derecha{
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    z-index: 1;
+    width: 3em;
+    background-color: red;
+    color:blue;
+}
+
+.img-derecha-text{
+    position: absolute;
+    right: 14px;
+    top: 39px;
+    z-index: 1;
+    width: 3em;
+    color: #fff;
+    font-size: 87%;
+    
+}
+
+.img-derecha-text-1{
+    position: absolute;
+    right: 1px;
+    top: 49px;
+    z-index: 1;
+    width: 3em;
+    color: #fff;
+    font-size: 81%;
+    
+}
+
+.img-derecha-text-2{
+    position: absolute;
+    right: 0px;
+    top: 61px;
+    z-index: 1;
+    font-size: 66%;
+    color: #fff;
+    letter-spacing: 1px;  
+}
+
+.img-derecha-text-3{
+    position: absolute;
+    right: 48px;
+    top: 61px;
+    z-index: 1;
+    font-size: 66%;
+    color: #fff;
+    letter-spacing: 1px;   
+}
+
+.img-derecha-text-4{
+    position: absolute;
+    right: 107px;
+    top: 61px;
+    z-index: 1;
+    font-size: 66%;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;   
+}
+
+.img-derecha-text-5{
+    position: absolute;
+    right: 85px;
+    top: 61px;
+    z-index: 1;
+    font-size: 66%;
+    color: #fff;
+    letter-spacing: 1px;
+    color: red; 
+    font-weight: bold;  
+}
+
+.img-izquierda{
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    z-index: 1;
+    width: 5em;
+    background-color: #fff;
+     -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    
+    
+}
+
+.img-bandera{
+    position: absolute;
+    right: 12px;
+    bottom: -22px !important;
+    z-index: 1;
+    width: 60px;  
+}
+
+@media (min-width: 1281px) {
+  
+  .img-bandera{
+    position: absolute;
+    right: 12px;
+    bottom: -252px !important;
+    z-index: 1;
+    width: 60px;  
+}
+  
+}  
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .img-bandera{
+    position: absolute;
+    right: 13px;
+    bottom: -252px !important;
+    z-index: 1;
+    width: 60px;  
+}
+  
+} 
+
+
+
+
+/*campos formulario login*/
+.btn-primary-uni {
+    color: #fff;
+    background-color: #CC2128;
+    border-color: #CC2128;
+}
+
+.btn-uni {
+    padding: 10px 25px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.form-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #eee;
+    background-color: #ffffff;
+    border: 1px solid #CC2128;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #CC2128;
+    box-shadow: none;
+    border-color: #CC2128;
+}
+
+.porras {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+/*cambiar css clase luces*/
+.luces {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+}
+
+
+/*en en campo de la fila 42 del style css*/
+a:hover, a:focus {
+    color: #FFF;
+    outline: 0;
+}
+
+
+/*en las luces de fondo de mecanica cambiar en el html*/
+<div class="col-md-12 luces fadeIn">
+            <img src="assets/luces.png">
+ </div>
+
+/*cambiar texto en boton term. y condic a "T & C"*/
+/*BOTON ver terminos y condiciones añadirle la tilde a la palabra términos/
+Agregar al texto registrate: "registrate en el boton participar"

@@ -1,0 +1,28 @@
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.face-button {
+  padding: 5px;
+  letter-spacing: .25px;
+  font-size: 15px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  padding: 2 8px 0 2px; */
+  border-rounder:2px;
+  border-radius: 5px;
+  background: #3B5998;
+  color: white;
+  text-decoration: none;
+}
+
+.face-button:hover {
+  text-decoration: none;
+  color: white;
+}

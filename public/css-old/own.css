@@ -1,0 +1,101 @@
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom:  3px;
+}
+
+
+.face-button {
+  padding: 5px;
+  letter-spacing: .25px;
+  font-size: 15px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  padding: 2 8px 0 2px; */
+  border-rounder:2px;
+  border-radius: 5px;
+  background: #3B5998;
+  color: white;
+  text-decoration: none;
+}
+
+.face-button:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*.fade.in {
+    opacity: 1;
+}*/
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-file {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 3px 6px;
+  border-radius: 8px;
+  /*font-size: 2px;*/
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#canvas {
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
+
+
+.progress 
+{
+  /*display:none; */
+  position:relative; 
+  width:150px; 
+  border: 1px solid #ddd; 
+  padding: 1px; 
+  border-radius: 3px; 
+}
+.bar 
+{ 
+  background-color: #B4F5B4; 
+  width:0%; 
+  height:20px; 
+  border-radius: 3px; 
+}
+.percent 
+{ 
+  position:absolute; 
+  display:inline-block; 
+  top:3px; 
+  left:48%; 
+}
+
+.centrado {
+  
+  margin:0 auto;
+}
+
+#imagen{margin:auto;} 
+
+.padding-img-btn{
+  padding-top: 10px;
+}
+
